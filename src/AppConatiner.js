@@ -1,9 +1,12 @@
-import React from 'react'
+import React from "react";
+import Container from "./frontEnd/Containers/Container";
 
 const AppConatiner = () => {
   return (
-    <div>AppConatiner</div>
-  )
-}
+    <div style={{ width: "100%" }}>
+      <Container />
+    </div>
+  );
+};
 
-export default AppConatiner
+export default AppConatiner;
